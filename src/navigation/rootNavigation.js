@@ -4,13 +4,18 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import {NavigationContainer} from '@react-navigation/native';
 import Home from '../screens/home';
 
-const Stack = createNativeStackNavigator();
+// const Stack = createNativeStackNavigator();
+// const AuthStackNavigator = createNativeStackNavigator();
+const HomeStackNavigator = createNativeStackNavigator();
 export default function RootNavigation() {
+
+    
+
   return (
-    <Stack.Navigator>
+    <HomeStackNavigator.Navigator>
         <NavigationContainer>
-            <Stack.Screen name='Home' component={Home} />
+            <HomeStackNavigator.Screen name='Home' component={Home} />
         </NavigationContainer>
-    </Stack.Navigator>
+    </HomeStackNavigator.Navigator>
   )
 }
