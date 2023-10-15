@@ -7,7 +7,6 @@ export const colors = {
   dark_Two: '#2b353d',
   midBlue: '#1e74b1',
   oceanBlue_opacity2: '#CCE3F0',
-  // oceanBlue_opacity2: 'rgba(0,118,181, 0.2)',
   blackfour: '#000000',
   blackfour80: '#00000080',
   coolGreyTwo: '#959a9e',
