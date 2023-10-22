@@ -20,4 +20,5 @@ export const colors = {
   darkBlack: '#000000',
   white_20: '#ffffff20',
   redWarn: '#ffb8d9',
+  gray:"gray",
 };
