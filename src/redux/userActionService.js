@@ -6,7 +6,7 @@ let initialState = {
 }
 
 export const getSongsCategory = createAsyncThunk('getSongsCategory',async(body) =>{
-    return axios.post("base url"+"End url",body,{
+    return axios.post("base url"+"End url ",body,{
         headers:{
             Accept:'application/json',
         },
